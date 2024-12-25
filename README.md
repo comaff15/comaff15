@@ -1,4 +1,7 @@
 [![MasterHead](https://github.com/comaff15/comaff15/blob/main/banner.png)](https://github.com/comaff15)
+I am a 3rd year student in applied computer science. I am currently actively studying full-stock development and computer networks. 
+~~I will be glad to cooperate~~
+<a href ="t.me/comaff15">![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white) </a>
 
 langs what i'm using now
 -
