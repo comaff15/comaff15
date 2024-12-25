@@ -1,6 +1,6 @@
 [![MasterHead](https://github.com/comaff15/comaff15/blob/main/banner.png)](https://github.com/comaff15)
 
-I am a third-year student in applied computer science and am currently actively studying full-stack development and computer networks.\ ~~I would be happy to cooperate with you~~
+I am a third-year student in applied computer science and am currently actively studying full-stack development and computer networks\ ~~I would be happy to cooperate with you~~
 
 langs what i'm using now
 -
