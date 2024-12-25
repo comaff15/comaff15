@@ -18,4 +18,5 @@
   <a href="https://dotnet.microsoft.com/" target="_blank"> <img src="https://github.com/devicons/devicon/blob/master/icons/dotnetcore/dotnetcore-original.svg" alt="dotnet" width="40" height="40"/> </a>
 </p>
 
-[![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=comaff15)](https://github.com/anuraghazra/github-readme-stats)[![gh streak](https://github-readme-streak-stats.herokuapp.com/?user=comaff15)](https://git.io/streak-stats)
+[![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=comaff15)](https://github.com/anuraghazra/github-readme-stats)
+[![gh streak](https://github-readme-streak-stats.herokuapp.com/?user=comaff15)](https://git.io/streak-stats)
