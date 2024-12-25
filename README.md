@@ -28,7 +28,5 @@ now i'm learn this
 
 my stats
 -
-![coma's GitHub stats](https://github-readme-stats.vercel.app/api?username=comaff15&show_icons=true&theme=transparent)
 ![coma's gh stats](https://github-readme-stats.vercel.app/api?username=comaff15&show_icons=true&theme=default_repocard)
 [![gh streak](https://github-readme-streak-stats.herokuapp.com/?user=comaff15)](https://git.io/streak-stats)
-[![top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=comaff15)](https://github.com/anuraghazra/github-readme-stats)
