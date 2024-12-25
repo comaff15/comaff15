@@ -23,10 +23,3 @@ now i'm learn this
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white)
-
-
-
-my stats
--
-![coma's gh stats](https://github-readme-stats.vercel.app/api?username=comaff15&show_icons=true&theme=default_repocard)
-[![gh streak](https://github-readme-streak-stats.herokuapp.com/?user=comaff15)](https://git.io/streak-stats)
