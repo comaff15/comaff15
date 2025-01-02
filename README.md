@@ -2,12 +2,12 @@
 
 A third-year student in applied computer science and am currently actively studying full-stack development and computer networks <br> ~~I would be happy to cooperate with you~~
 
-lang what i'm using now
+what i'm using 
 -
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-my tools
+tools
 -
 
 ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
@@ -17,7 +17,7 @@ my tools
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-now i'm learn this 
+now learn this 
 -
 
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
