@@ -4,11 +4,13 @@ readme_file="README.md"
 email="zavarykingleb@gmail.com"
 telegram="@comaff15"
 
+# Проверка наличия figlet
 if ! command -v figlet &>/dev/null; then
   echo "❌ Требуется 'figlet'. Установите его и повторите."
   exit 1
 fi
 
+# Массив мотто
 phrases=(
   "Automate everything"
   "Use CI/CD, not hope"
@@ -25,7 +27,9 @@ ascii_phrase=$(figlet -f slant "$selected_phrase")
 updated_time=$(date -u +"%Y-%m-%d %H:%M UTC")
 ip_suffix=$((RANDOM % 100 + 10))
 
+# Генерация файла как будто это обычная SSH-сессия, обернутая в markdown code block
 cat <<EOF > "$readme_file"
+\`\`\`bash
 Last login: $updated_time from 192.168.1.$ip_suffix
 coma@vm:~$ clear
 
@@ -55,5 +59,5 @@ coma@vm:~$ echo "$email"
 $email
 coma@vm:~$ echo "Telegram: $telegram"
 Telegram: $telegram
+\`\`\`
 EOF
-
