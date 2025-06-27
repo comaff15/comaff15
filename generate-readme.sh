@@ -26,28 +26,31 @@ ascii_phrase=$(figlet -f slant "$selected_phrase")
 
 cat <<EOF > $readme_file
 !/bin/bash
-# =============================================
-#                    ABOUT
-# =============================================
 
-## === MOTTO ===
-cat <<'ASCII'
+cat /home/comaff15/MOTTO.TXT
 $ascii_phrase
 ASCII
 
-## === TECH STACK ===
-echo "Linux (Debian\Ubuntu, NixOS, Fedora)"
-echo "Docker, containered"
-echo "Kubernetes (k3s, helm, kubectl)"
-echo "Git, GitHub Actions"
-echo "Bash, Python"
-echo "Nginx"
-echo "PostgreSQL"
+cat /home/comaff15/INFO.TXT
+=============================================
+                    ABOUT
+=============================================
+- 3rd year student at UlSU
+- actively involved in devops and system administration
 
+=============================================
+                    SKILLS
+=============================================
+- Linux (Debian\Ubuntu, NixOS, Fedora)
+- Kubernetes (k3s, helm, kubectl)
+- Git, GitHub Actions
+- Bash, Python
+- Nginx
+- PostgreSQL
+
+=============================================
 Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
 
-
-## === LINKS ===
 echo "$email"
 echo "Telegram: $telegram"
 EOF
