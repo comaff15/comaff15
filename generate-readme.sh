@@ -24,11 +24,6 @@ random_index=$((RANDOM % ${#phrases[@]}))
 selected_phrase="${phrases[$random_index]}"
 ascii_phrase=$(figlet -f slant "$selected_phrase")
 
-hostname="github-actions"
-uptime_info=$(uptime -p || echo "n/a")
-load_avg=$(awk '{print $1, $2, $3}' /proc/loadavg)
-last_commit=$(git log -1 --pretty=format:'%h %s (%cr)' 2>/dev/null || echo "n/a")
-
 cat <<EOF > $readme_file
 #!/bin/bash
 # =============================================
@@ -50,11 +45,6 @@ echo "Nginx"
 echo "PostgreSQL"
 
 Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
-
-## === STATUS ===
-echo "Uptime: $uptime_info"
-echo "Load Avg: $load_avg"
-echo "Last Commit: $last_commit"
 
 
 ## === LINKS ===
