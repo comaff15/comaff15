@@ -1,33 +1,31 @@
-
-Last login:  from 192.168.1.60
+Last login: 2025-06-27 18:42 UTC from 192.168.1.109
 coma@vm:~$ clear
 
 coma@vm:~$ ./ascii.sh
-  __  _____    __  _____       __          __                                
-\ \/ /   |  /  |/  / /      / /_  ____ _/ /____  _____   __  ______  __  __
- \  / /| | / /|_/ / /      / __ \/ __ `/ __/ _ \/ ___/  / / / / __ \/ / / /
- / / ___ |/ /  / / /___   / / / / /_/ / /_/  __(__  )  / /_/ / /_/ / /_/ / 
-/_/_/  |_/_/  /_/_____/  /_/ /_/\__,_/\__/\___/____/   \__, /\____/\__,_/  
-                                                      /____/               
-   __            
-  / /_____  ____ 
- / __/ __ \/ __ \
-/ /_/ /_/ / /_/ /
-\__/\____/\____/ 
-                 
-ASCII
+    ___         __                        __     
+   /   | __  __/ /_____  ____ ___  ____ _/ /____ 
+  / /| |/ / / / __/ __ \/ __ `__ \/ __ `/ __/ _ \
+ / ___ / /_/ / /_/ /_/ / / / / / / /_/ / /_/  __/
+/_/  |_\__,_/\__/\____/_/ /_/ /_/\__,_/\__/\___/ 
+                                                 
+                             __  __    _            
+  ___ _   _____  _______  __/ /_/ /_  (_)___  ____ _
+ / _ \ | / / _ \/ ___/ / / / __/ __ \/ / __ \/ __ `/
+/  __/ |/ /  __/ /  / /_/ / /_/ / / / / / / / /_/ / 
+\___/|___/\___/_/   \__, /\__/_/ /_/_/_/ /_/\__, /  
+                   /____/                  /____/   
 
-coma@vm:~$ cat /home/comaff15/INFO.TXT
+coma@vm:~$ cat /home/comaff15/info.txt
 =============================================
-                    ABOUT
+#                   ABOUT
 =============================================
-3rd year student at UlSU
-actively involved in devops and system administration
+3rd year student at UlSU  
+Actively involved in DevOps and system administration
 
 =============================================
-                    SKILLS
+#                   SKILLS
 =============================================
-- Linux (Debian\Ubuntu, NixOS, Fedora)
+- Linux (Debian/Ubuntu, NixOS, Fedora)
 - Kubernetes (k3s, helm, kubectl)
 - Git, GitHub Actions
 - Bash, Python
@@ -35,7 +33,9 @@ actively involved in devops and system administration
 - PostgreSQL
 
 =============================================
-Updated on: 2025-06-27 18:36 UTC
+Updated on: 2025-06-27 18:42 UTC
 
 coma@vm:~$ echo "zavarykingleb@gmail.com"
+zavarykingleb@gmail.com
 coma@vm:~$ echo "Telegram: @comaff15"
+Telegram: @comaff15
