@@ -4,11 +4,13 @@ readme_file="README.md"
 email="zavarykingleb@gmail.com"
 telegram="@comaff15"
 
+# Проверка наличия figlet
 if ! command -v figlet &>/dev/null; then
-  echo "Требуется figlet"
+  echo "❌ Требуется 'figlet'. Установите его и повторите."
   exit 1
 fi
 
+# Случайная мотивационная фраза
 phrases=(
   "Automate everything"
   "Use CI/CD, not hope"
@@ -22,27 +24,28 @@ phrases=(
 random_index=$((RANDOM % ${#phrases[@]}))
 selected_phrase="${phrases[$random_index]}"
 ascii_phrase=$(figlet -f slant "$selected_phrase")
+updated_time=$(date -u +"%Y-%m-%d %H:%M UTC")
+ip_suffix=$((RANDOM % 100 + 10))
 
-cat <<EOF > $readme_file
+# Генерация README.md
+cat <<EOF > "$readme_file"
+Last login: $updated_time from 192.168.1.$ip_suffix
+coma@vm:~\$ clear
 
-Last login: $updated_time from 192.168.1.$((RANDOM % 100 + 10))
-coma@vm:~$ clear
+coma@vm:~\$ ./ascii.sh
+$ascii_phrase
 
-coma@vm:~$ ./ascii.sh
-  $ascii_phrase
-ASCII
-
-coma@vm:~$ cat /home/comaff15/INFO.TXT
+coma@vm:~\$ cat /home/comaff15/info.txt
 =============================================
-                    ABOUT
+#                   ABOUT
 =============================================
-3rd year student at UlSU
-actively involved in devops and system administration
+3rd year student at UlSU  
+Actively involved in DevOps and system administration
 
 =============================================
-                    SKILLS
+#                   SKILLS
 =============================================
-- Linux (Debian\Ubuntu, NixOS, Fedora)
+- Linux (Debian/Ubuntu, NixOS, Fedora)
 - Kubernetes (k3s, helm, kubectl)
 - Git, GitHub Actions
 - Bash, Python
@@ -50,8 +53,10 @@ actively involved in devops and system administration
 - PostgreSQL
 
 =============================================
-Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
+Updated on: $updated_time
 
-coma@vm:~$ echo "$email"
-coma@vm:~$ echo "Telegram: $telegram"
+coma@vm:~\$ echo "$email"
+$email
+coma@vm:~\$ echo "Telegram: $telegram"
+Telegram: $telegram
 EOF
