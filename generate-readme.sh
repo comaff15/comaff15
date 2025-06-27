@@ -32,30 +32,33 @@ last_commit=$(git log -1 --pretty=format:'%h %s (%cr)' 2>/dev/null || echo "n/a"
 cat <<EOF > $readme_file
 #!/bin/bash
 # =============================================
-#  🔧 DevOps / SysAdmin Profile
+#              DevOps / SysAdmin
 # =============================================
-
-export USER="$username"
-export EMAIL="$email"
-export TG_HANDLE="$telegram"
-export GENERATED_AT="$(date "+%Y-%m-%d %H:%M:%S")"
 
 ## === MOTTO ===
 cat <<'ASCII'
 $ascii_phrase
 ASCII
 
+## === TECH STACK ===
+echo "Linux (Debian\Ubuntu, NixOS, Fedora)"
+echo "Docker, containered"
+echo "Kubernetes (k3s, helm, kubectl)"
+echo "Git, GitHub Actions"
+echo "Bash, Python"
+echo "Nginx"
+echo "PostgreSQL"
+
+Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
+
 ## === STATUS ===
 echo "Uptime: $uptime_info"
 echo "Load Avg: $load_avg"
 echo "Last Commit: $last_commit"
 
+
 ## === LINKS ===
 echo "$email"
 echo "Telegram: $telegram"
 echo "GitHub: https://github.com/$username"
-
-echo "Profile updated!"
 EOF
-
-echo "README.md успешно обновлён."
