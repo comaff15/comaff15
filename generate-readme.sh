@@ -25,9 +25,9 @@ selected_phrase="${phrases[$random_index]}"
 ascii_phrase=$(figlet -f slant "$selected_phrase")
 
 cat <<EOF > $readme_file
-#!/bin/bash
+!/bin/bash
 # =============================================
-#              DevOps / SysAdmin
+#                    ABOUT
 # =============================================
 
 ## === MOTTO ===
