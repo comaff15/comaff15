@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false
@@ -24,17 +24,17 @@ jobs:
       - name: Run generate-readme.sh
         run: ./generate-readme.sh
 
-      - name: Commit and push changes
+      - name: Commit and push README.md if changed
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "comaff15"
+          git config user.email "zavarykingleb@gmail.com"
 
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "auto: update profile with ASCII motto [$(date +'%Y-%m-%d')]"
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+            git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }} HEAD:main
           fi
