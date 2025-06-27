@@ -1,31 +1,41 @@
-#!/bin/bash
-# =============================================
-#              DevOps / SysAdmin
-# =============================================
 
-## === MOTTO ===
-cat <<'ASCII'
-    __                                                     ___    
-   / /   ____  ____ ______   ____  ___ _   _____  _____   / (_)__ 
-  / /   / __ \/ __ `/ ___/  / __ \/ _ \ | / / _ \/ ___/  / / / _ \
- / /___/ /_/ / /_/ (__  )  / / / /  __/ |/ /  __/ /     / / /  __/
-/_____/\____/\__, /____/  /_/ /_/\___/|___/\___/_/     /_/_/\___/ 
-            /____/                                                
+Last login:  from 192.168.1.60
+coma@vm:~$ clear
+
+coma@vm:~$ ./ascii.sh
+  __  _____    __  _____       __          __                                
+\ \/ /   |  /  |/  / /      / /_  ____ _/ /____  _____   __  ______  __  __
+ \  / /| | / /|_/ / /      / __ \/ __ `/ __/ _ \/ ___/  / / / / __ \/ / / /
+ / / ___ |/ /  / / /___   / / / / /_/ / /_/  __(__  )  / /_/ / /_/ / /_/ / 
+/_/_/  |_/_/  /_/_____/  /_/ /_/\__,_/\__/\___/____/   \__, /\____/\__,_/  
+                                                      /____/               
+   __            
+  / /_____  ____ 
+ / __/ __ \/ __ \
+/ /_/ /_/ / /_/ /
+\__/\____/\____/ 
+                 
 ASCII
 
-## === TECH STACK ===
-echo "Linux (Debian\Ubuntu, NixOS, Fedora)"
-echo "Docker, containered"
-echo "Kubernetes (k3s, helm, kubectl)"
-echo "Git, GitHub Actions"
-echo "Bash, Python"
-echo "Nginx"
-echo "PostgreSQL"
+coma@vm:~$ cat /home/comaff15/INFO.TXT
+=============================================
+                    ABOUT
+=============================================
+3rd year student at UlSU
+actively involved in devops and system administration
 
-Updated on: 2025-06-27 07:43 UTC
+=============================================
+                    SKILLS
+=============================================
+- Linux (Debian\Ubuntu, NixOS, Fedora)
+- Kubernetes (k3s, helm, kubectl)
+- Git, GitHub Actions
+- Bash, Python
+- Nginx
+- PostgreSQL
 
+=============================================
+Updated on: 2025-06-27 18:36 UTC
 
-## === LINKS ===
-echo "zavarykingleb@gmail.com"
-echo "Telegram: @comaff15"
-echo "GitHub: https://github.com/comaff15"
+coma@vm:~$ echo "zavarykingleb@gmail.com"
+coma@vm:~$ echo "Telegram: @comaff15"
