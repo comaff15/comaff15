@@ -50,5 +50,4 @@ Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
 ## === LINKS ===
 echo "$email"
 echo "Telegram: $telegram"
-echo "GitHub: https://github.com/$username"
 EOF
