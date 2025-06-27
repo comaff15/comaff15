@@ -10,7 +10,7 @@ if ! command -v figlet &>/dev/null; then
   exit 1
 fi
 
-# Случайная мотивационная фраза
+# Массив мотто
 phrases=(
   "Automate everything"
   "Use CI/CD, not hope"
@@ -27,36 +27,35 @@ ascii_phrase=$(figlet -f slant "$selected_phrase")
 updated_time=$(date -u +"%Y-%m-%d %H:%M UTC")
 ip_suffix=$((RANDOM % 100 + 10))
 
-# Генерация README.md
 cat <<EOF > "$readme_file"
 Last login: $updated_time from 192.168.1.$ip_suffix
-coma@vm:~\$ clear
+coma@vm:~$ clear
 
-coma@vm:~\$ ./ascii.sh
+coma@vm:~$ ./ascii.sh
 $ascii_phrase
-
-coma@vm:~\$ cat /home/comaff15/info.txt
+coma@vm:~$ cat /home/comaff15/info.txt
 =============================================
-#                   ABOUT
+                   ABOUT
 =============================================
-3rd year student at UlSU  
+3rd year student at UlSU
 Actively involved in DevOps and system administration
 
 =============================================
-#                   SKILLS
+                   SKILLS
 =============================================
-- Linux (Debian/Ubuntu, NixOS, Fedora)
-- Kubernetes (k3s, helm, kubectl)
-- Git, GitHub Actions
-- Bash, Python
-- Nginx
-- PostgreSQL
+Linux (Debian/Ubuntu, NixOS, Fedora)
+Kubernetes (k3s, helm, kubectl)
+Git, GitHub Actions
+Bash, Python
+Nginx
+PostgreSQL
 
 =============================================
 Updated on: $updated_time
 
-coma@vm:~\$ echo "$email"
+coma@vm:~$ echo "$email"
 $email
-coma@vm:~\$ echo "Telegram: $telegram"
+coma@vm:~$ echo "Telegram: $telegram"
 Telegram: $telegram
 EOF
+
