@@ -6,7 +6,7 @@ email="zavarykingleb@gmail.com"
 telegram="@comaff15"
 
 if ! command -v figlet &>/dev/null; then
-  echo "Требуется figlet. Установи через: sudo apt install figlet"
+  echo "Требуется figlet"
   exit 1
 fi
 
