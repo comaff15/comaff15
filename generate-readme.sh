@@ -4,13 +4,11 @@ readme_file="README.md"
 email="zavarykingleb@gmail.com"
 telegram="@comaff15"
 
-# Проверка наличия figlet
 if ! command -v figlet &>/dev/null; then
   echo "❌ Требуется 'figlet'. Установите его и повторите."
   exit 1
 fi
 
-# Массив мотто
 phrases=(
   "Automate everything"
   "Use CI/CD, not hope"
