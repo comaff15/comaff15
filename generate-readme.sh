@@ -1,7 +1,6 @@
 #!/bin/bash
 
 readme_file="README.md"
-username="comaff15"
 email="zavarykingleb@gmail.com"
 telegram="@comaff15"
 
@@ -25,18 +24,20 @@ selected_phrase="${phrases[$random_index]}"
 ascii_phrase=$(figlet -f slant "$selected_phrase")
 
 cat <<EOF > $readme_file
-!/bin/bash
 
-cat /home/comaff15/MOTTO.TXT
-$ascii_phrase
+Last login: $updated_time from 192.168.1.$((RANDOM % 100 + 10))
+coma@vm:~$ clear
+
+coma@vm:~$ ./ascii.sh
+  $ascii_phrase
 ASCII
 
-cat /home/comaff15/INFO.TXT
+coma@vm:~$ cat /home/comaff15/INFO.TXT
 =============================================
                     ABOUT
 =============================================
-- 3rd year student at UlSU
-- actively involved in devops and system administration
+3rd year student at UlSU
+actively involved in devops and system administration
 
 =============================================
                     SKILLS
@@ -51,6 +52,6 @@ cat /home/comaff15/INFO.TXT
 =============================================
 Updated on: $(date -u +"%Y-%m-%d %H:%M UTC")
 
-echo "$email"
-echo "Telegram: $telegram"
+coma@vm:~$ echo "$email"
+coma@vm:~$ echo "Telegram: $telegram"
 EOF
