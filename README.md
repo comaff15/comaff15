@@ -1,39 +1,38 @@
-Last login: 2025-06-27 18:42 UTC from 192.168.1.109
+Last login: 2025-06-27 18:48 UTC from 192.168.1.70
 coma@vm:~$ clear
 
 coma@vm:~$ ./ascii.sh
-    ___         __                        __     
-   /   | __  __/ /_____  ____ ___  ____ _/ /____ 
-  / /| |/ / / / __/ __ \/ __ `__ \/ __ `/ __/ _ \
- / ___ / /_/ / /_/ /_/ / / / / / / /_/ / /_/  __/
-/_/  |_\__,_/\__/\____/_/ /_/ /_/\__,_/\__/\___/ 
-                                                 
-                             __  __    _            
-  ___ _   _____  _______  __/ /_/ /_  (_)___  ____ _
- / _ \ | / / _ \/ ___/ / / / __/ __ \/ / __ \/ __ `/
-/  __/ |/ /  __/ /  / /_/ / /_/ / / / / / / / /_/ / 
-\___/|___/\___/_/   \__, /\__/_/ /_/_/_/ /_/\__, /  
-                   /____/                  /____/   
-
+   __  __             __________   ____________                   __ 
+  / / / /_______     / ____/  _/ _/_/ ____/ __ \     ____  ____  / /_
+ / / / / ___/ _ \   / /    / / _/_// /   / / / /    / __ \/ __ \/ __/
+/ /_/ (__  )  __/  / /____/ /_/_/ / /___/ /_/ /    / / / / /_/ / /_  
+\____/____/\___/   \____/___/_/   \____/_____( )  /_/ /_/\____/\__/  
+                                             |/                      
+    __                   
+   / /_  ____  ____  ___ 
+  / __ \/ __ \/ __ \/ _ \
+ / / / / /_/ / /_/ /  __/
+/_/ /_/\____/ .___/\___/ 
+           /_/           
 coma@vm:~$ cat /home/comaff15/info.txt
 =============================================
-#                   ABOUT
+                   ABOUT
 =============================================
-3rd year student at UlSU  
+3rd year student at UlSU
 Actively involved in DevOps and system administration
 
 =============================================
-#                   SKILLS
+                   SKILLS
 =============================================
-- Linux (Debian/Ubuntu, NixOS, Fedora)
-- Kubernetes (k3s, helm, kubectl)
-- Git, GitHub Actions
-- Bash, Python
-- Nginx
-- PostgreSQL
+Linux (Debian/Ubuntu, NixOS, Fedora)
+Kubernetes (k3s, helm, kubectl)
+Git, GitHub Actions
+Bash, Python
+Nginx
+PostgreSQL
 
 =============================================
-Updated on: 2025-06-27 18:42 UTC
+Updated on: 2025-06-27 18:48 UTC
 
 coma@vm:~$ echo "zavarykingleb@gmail.com"
 zavarykingleb@gmail.com
