@@ -57,9 +57,7 @@ Updated on: $updated_time
 
 
 
-coma@vm:~$ echo "Mail"
-           $email
-coma@vm:~$ echo "Telegram"
-           $telegram
+coma@vm:~$ echo "Mail: $email"
+coma@vm:~$ echo "Telegram: $telegram"    
 \`\`\`
 EOF
