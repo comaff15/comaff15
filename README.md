@@ -28,7 +28,7 @@ coma@vm:~$ cat /home/comaff15/info.txt
 =============================================
                    ABOUT
 =============================================
-3rd year student at UlSU
+4rd year student at UlSU
 Actively involved in DevOps and system administration
 
 =============================================
