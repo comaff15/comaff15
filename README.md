@@ -34,10 +34,10 @@ Actively involved in DevOps and system administration
 =============================================
                    SKILLS
 =============================================
-Linux (Debian/Ubuntu, NixOS, Fedora)
-Kubernetes (k3s, helm, kubectl)
+Linux (Debian, NixOS, Fedora)
+Docker
 Git, GitHub Actions
-Bash, Python
+Bash
 Nginx
 PostgreSQL
 
